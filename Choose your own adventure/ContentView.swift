@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView {
+            VStack {
+                HStack {
+                    Text("Choose your own adventure").fixedSize(horizontal: true, vertical: false)
+                        .font(.title)
+                        .bold()
+                        .multilineTextAlignment(.center)
+                }
+                Text("Intro")
+            }
+            Button("Choice 1", action: {})
+                .padding()
+        } .tabViewStyle(.page)
     }
 }
 
