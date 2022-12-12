@@ -18,8 +18,19 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                 }
                 Text("Intro")
+                Button("Choice 1", action: {})
             }
-            Button("Choice 1", action: {})
+                .padding()
+            VStack {
+                HStack {
+                    Text("Choose your own adventure").fixedSize(horizontal: true, vertical: false)
+                        .font(.title)
+                        .bold()
+                        .multilineTextAlignment(.center)
+                }
+                Text("Intro")
+                Button("Choice 1", action: {})
+            }
                 .padding()
         } .tabViewStyle(.page)
     }
