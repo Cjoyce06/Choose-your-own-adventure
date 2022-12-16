@@ -13,7 +13,6 @@
 		F9F887F22947DCBC00B6E2C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F887F12947DCBC00B6E2C0 /* Preview Assets.xcassets */; };
 		F9F887F92947E3D000B6E2C0 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F887F82947E3D000B6E2C0 /* Page.swift */; };
 		F9F887FB294A827900B6E2C0 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F887FA294A827900B6E2C0 /* Choice.swift */; };
-		F9F887FD294A8BF900B6E2C0 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F887FC294A8BF900B6E2C0 /* IntroductionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		F9F887F12947DCBC00B6E2C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9F887F82947E3D000B6E2C0 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		F9F887FA294A827900B6E2C0 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
-		F9F887FC294A8BF900B6E2C0 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				F9F887EC2947DCBA00B6E2C0 /* ContentView.swift */,
 				F9F887F82947E3D000B6E2C0 /* Page.swift */,
 				F9F887FA294A827900B6E2C0 /* Choice.swift */,
-				F9F887FC294A8BF900B6E2C0 /* IntroductionView.swift */,
 				F9F887EE2947DCBC00B6E2C0 /* Assets.xcassets */,
 				F9F887F02947DCBC00B6E2C0 /* Preview Content */,
 			);
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F887FD294A8BF900B6E2C0 /* IntroductionView.swift in Sources */,
 				F9F887ED2947DCBA00B6E2C0 /* ContentView.swift in Sources */,
 				F9F887EB2947DCBA00B6E2C0 /* Choose_your_own_adventureApp.swift in Sources */,
 				F9F887FB294A827900B6E2C0 /* Choice.swift in Sources */,
