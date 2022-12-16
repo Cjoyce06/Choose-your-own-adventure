@@ -16,7 +16,7 @@ struct IntroductionView: View {
                     .bold()
                     .multilineTextAlignment(.center)
             }
-            Button("Start!")
+           
         }
     }
 }
