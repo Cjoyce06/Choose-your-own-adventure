@@ -9,5 +9,6 @@ import Foundation
 struct Choice: Identifiable {
     let title: String
     let tag: Int
-    let id = UUID()
+    let id = UUID() 
 }
+

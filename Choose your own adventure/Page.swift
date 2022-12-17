@@ -10,8 +10,11 @@ import SwiftUI
 struct Page: Identifiable {
     let text: String
     let choices: [Choice]
+    
     var id: String {
         text
     }
     let tag: Int
+    var Image: String
 }
+ 
