@@ -65,12 +65,15 @@ struct ContentView: View {
                         Image(page.Image)
                             .resizable()
                             .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
                         ForEach(page.choices, content:  { choice in
-                            Button(choice, action: {
+                            Button {
                                 withAnimation {
                                     currentPage = choice.tag
-                                }
-                            })
+                            }
+                            } label: {
+                                Text(choice.title).foregroundColor(.white)
+                            }
                         })
                     }.padding().tag(page.tag)
                 })
